@@ -1,0 +1,43 @@
+.features {
+    &__heading {
+        margin-bottom: 5.6rem;
+    }
+
+    &__description {
+        font-weight: 200;
+        color: rgba(0, 0, 0, 0.651);
+        text-align: center;
+        display: block;
+        max-width: 50%;
+        line-height: 4rem;
+        margin: 0 auto;      
+        margin-bottom: 14rem;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    &__item {
+        max-width: 27rem;
+        text-align: center;
+    }
+}
+
+.item {
+    &__image {
+        max-width: 20rem;
+        margin-bottom: 8rem;
+    }
+
+    &__description {
+        line-height: 2.7rem;
+        font-weight: 200;
+        color: rgba(0, 0, 0, 0.651);
+    }
+
+    &__heading {
+        margin-bottom: 3.5rem;
+    }
+}

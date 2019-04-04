@@ -1,0 +1,41 @@
+.about-us {
+    position: relative;
+
+    &__heading {
+        margin-bottom: 9rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 22rem;
+    }
+
+    &__content {
+        flex-basis: 40%;
+    }
+
+    &__list {
+        list-style-image: url(../img/marker-1.png);
+        padding-left: 11rem;
+    }
+
+    &__item {
+      padding-left: 2rem;
+      margin-bottom: 6rem;
+    }
+}
+
+.item-au {
+    &__text {
+        line-height: 4rem;
+        font-weight: 200;
+        color: rgba(0, 0, 0, 0.651);
+    }
+}
+
+.decoration-img-1 {
+    position: absolute;
+    left: 0;
+    top: 10rem;
+}

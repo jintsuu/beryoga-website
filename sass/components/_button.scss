@@ -1,0 +1,15 @@
+.btn {
+    border: 2px solid #ff6a6d;
+    border-radius: 50px;
+    color: #ff6a6d;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        background-color: #ff6a6d;
+        box-shadow: 0 0 10rem .2rem rgba(0, 0, 0, 0.226);
+        color: white;
+        transform: scale(1.07);
+    }
+}
