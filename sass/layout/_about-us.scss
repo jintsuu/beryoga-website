@@ -1,5 +1,5 @@
 .about-us {
-    position: relative;
+    
 
     &__heading {
         margin-bottom: 9rem;
@@ -26,16 +26,3 @@
     }
 }
 
-.item-au {
-    &__text {
-        line-height: 4rem;
-        font-weight: 200;
-        color: rgba(0, 0, 0, 0.651);
-    }
-}
-
-.decoration-img-1 {
-    position: absolute;
-    left: 0;
-    top: 10rem;
-}

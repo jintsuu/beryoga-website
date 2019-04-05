@@ -13,7 +13,7 @@ html {
 }
 
 .container {
-  width: 142rem;
+  width: 73.95%;
   margin: 0 auto;
 }
 
@@ -57,6 +57,19 @@ html {
   transform: scale(1.07);
 }
 
+.btn-blog {
+  border: none;
+  background: transparent;
+  color: #3cbef1;
+  cursor: pointer;
+  padding: 1rem .5rem;
+}
+
+.btn-blog:hover {
+  background-color: #3cbef1;
+  color: white;
+}
+
 .header {
   background: url(../img/main-img.png) no-repeat;
   background-position: 0 -3rem;
@@ -71,10 +84,65 @@ html {
 }
 
 .about-us {
+  position: relative;
   background: url(../img/about-us.png) no-repeat;
   background-position: 17% 0;
   background-size: 40%;
   padding-top: 6rem;
+  margin-bottom: 25rem;
+}
+
+.first-blog {
+  position: relative;
+  background: url(../img/the-healing.png) no-repeat;
+  background-position: 85% 0;
+  background-size: 40%;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  margin-bottom: 30rem;
+}
+
+.second-blog {
+  background: url(../img/blog.png) no-repeat;
+  background-position: 10% 0;
+  background-size: 35%;
+  margin-bottom: 16rem;
+}
+
+.footer {
+  background: url(../img/footer-back.png) no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  padding-top: 5rem;
+}
+
+.decoration {
+  position: absolute;
+}
+
+.decoration-img-1 {
+  left: 0;
+  top: 10rem;
+}
+
+.decoration-img-2 {
+  right: 0;
+  top: -15rem;
+}
+
+.decoration-img-3 {
+  left: 0;
+  bottom: -20rem;
+}
+
+.decoration-img-4 {
+  right: 0;
+  bottom: -40rem;
+}
+
+.decoration-img-5 {
+  right: 0;
+  bottom: -50rem;
 }
 
 .heading--2 {
@@ -82,12 +150,19 @@ html {
   color: #3b3838;
   text-align: center;
   font-weight: 500;
+  line-height: 6.04rem;
 }
 
 .heading--3 {
   font-size: 2.4rem;
   font-weight: 500;
   color: #3b3838;
+}
+
+.primary-text {
+  line-height: 4rem;
+  color: rgba(0, 0, 0, 0.651);
+  font-weight: 200;
 }
 
 .header__logo {
@@ -150,10 +225,6 @@ html {
 }
 
 .main-content__text {
-  font-size: 1.8rem;
-  color: rgba(0, 0, 0, 0.658);
-  font-weight: 200;
-  line-height: 4rem;
   width: 80%;
   margin-bottom: 7rem;
 }
@@ -199,16 +270,10 @@ html {
 
 .item__description {
   line-height: 2.7rem;
-  font-weight: 200;
-  color: rgba(0, 0, 0, 0.651);
 }
 
 .item__heading {
   margin-bottom: 3.5rem;
-}
-
-.about-us {
-  position: relative;
 }
 
 .about-us__heading {
@@ -235,15 +300,289 @@ html {
   margin-bottom: 6rem;
 }
 
-.item-au__text {
-  line-height: 4rem;
-  font-weight: 200;
-  color: rgba(0, 0, 0, 0.651);
+.first-blog__wrapper {
+  max-width: 40%;
+  padding-left: 5rem;
 }
 
-.decoration-img-1 {
+.first-blog__heading {
+  text-align: left;
+  margin-bottom: 8rem;
+}
+
+.first-blog__text-wrapper {
+  padding-left: 5rem;
+  padding-right: 11rem;
+}
+
+.first-blog__text {
+  margin-bottom: 8rem;
+}
+
+.second-blog__wrapper {
+  padding-left: 5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.second-blog__content {
+  max-width: 50%;
+  padding-right: 10rem;
+}
+
+.second-blog__heading {
+  text-align: left;
+  margin-bottom: 10rem;
+  line-height: 6.73rem;
+}
+
+.second-blog__text-wrapper {
+  padding-left: 10rem;
+}
+
+.second-blog__text {
+  text-indent: 4rem;
+}
+
+.second-blog__text--2 {
+  text-indent: 4rem;
+  margin-bottom: 9rem;
+}
+
+.footer__deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rem;
+}
+
+.footer__nav {
+  background: rgba(255, 255, 255, 0.5);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  padding: 11.5rem 17rem 5.5rem 17rem;
+}
+
+.footer__copyright {
+  text-align: center;
+  color: #2e2e2ec2;
+}
+
+.deal__item {
+  background-color: white;
+  padding: 7rem 5.5rem;
+  border-radius: 20px;
+  box-shadow: 0 40px 120px 5px rgba(0, 0, 0, 0.329);
+  position: relative;
+  overflow: hidden;
+}
+
+.deal__item--back {
+  z-index: 0;
+  min-width: 37rem;
+}
+
+.deal__item--back .deal__term {
+  background: url(../img/marker-blue.png) no-repeat;
+  background-position: 0 .5rem;
+}
+
+.deal__item--main {
+  z-index: 1;
+  min-width: 40rem;
+  padding-top: 0;
+}
+
+.deal__item--main .deal__list {
+  margin-bottom: 9rem;
+}
+
+.deal__item--main .deal__term {
+  background: url(../img/marker-red.png) no-repeat;
+  background-position: 0 .5rem;
+}
+
+.deal__heading {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #ff6a6d;
+  margin: 4.8rem -5.5rem;
+  margin-top: 0;
+  padding: 4rem 0;
+  text-transform: uppercase;
+}
+
+.deal__heading--right {
+  color: #494949;
+  background: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 6rem;
+  text-transform: none;
+}
+
+.deal__list {
+  list-style: none;
+}
+
+.deal__list-left {
+  margin-bottom: 7rem;
+}
+
+.deal__list-right {
+  margin-bottom: 5rem;
+}
+
+.deal__term {
+  color: #3b3838b6;
+  padding: 1.5rem;
+  padding-left: 6rem;
+  margin-bottom: 2.6rem;
+}
+
+.deal__price {
+  position: relative;
+  text-align: center;
+  color: #3b3838b6;
+}
+
+.deal__price-content--main {
+  display: block;
+  margin-right: 4rem;
+}
+
+.deal__value {
+  font-size: 15rem;
+}
+
+.deal__sign {
+  font-size: 4.8rem;
   position: absolute;
-  left: 0;
-  top: 10rem;
+  top: 0;
+}
+
+.deal__sign--left {
+  left: 6.5rem;
+}
+
+.deal__sign--main {
+  left: 1rem;
+}
+
+.deal__sign--right {
+  left: 9rem;
+}
+
+.deal__period {
+  font-size: 3rem;
+  margin-left: -1.5rem;
+}
+
+.deal__period--left {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+}
+
+.deal__period--main {
+  position: absolute;
+  bottom: 5rem;
+  right: 3rem;
+}
+
+.deal__period--right {
+  position: absolute;
+  bottom: 5rem;
+  right: 8rem;
+}
+
+.deal__btn-wrapper {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.deal__btn {
+  border: none;
+  border-radius: 50px;
+  padding: 2.5rem 3.6rem;
+  background: transparent;
+  cursor: pointer;
+  transition: all .5s;
+  color: white;
+}
+
+.deal__btn:hover {
+  box-shadow: 0 1.5rem 3rem 2px rgba(0, 0, 0, 0.158);
+}
+
+.deal__btn--left {
+  background: linear-gradient(to top right, #5fcef5, #95e8fd);
+}
+
+.deal__btn--left:hover {
+  background: linear-gradient(to top left, #5fcef5, #95e8fd);
+}
+
+.deal__btn--main {
+  background: linear-gradient(to top right, #ff6a6d, #fd90a7);
+}
+
+.deal__btn--main:hover {
+  background: linear-gradient(to top left, #ff6a6d, #fd90a7);
+}
+
+.deal__btn--right {
+  background: linear-gradient(to top right, #21acdd, #9ddae9);
+}
+
+.deal__btn--right:hover {
+  background: linear-gradient(to top left, #21acdd, #9ddae9);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 11rem;
+}
+
+.nav__block {
+  flex-basis: 20%;
+  color: #2e2e2ec2;
+}
+
+.nav__contacts {
+  font-style: normal;
+}
+
+.nav__address {
+  margin-bottom: 4rem;
+  line-height: 3rem;
+}
+
+.nav__link:link, .nav__link:visited {
+  text-decoration: none;
+  display: block;
+  color: #2e2e2ec2;
+}
+
+.nav__link:not(:last-child) {
+  margin-bottom: .8rem;
+}
+
+.nav__heading {
+  color: #2e2e2ec9;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__item {
+  font-size: 1.6rem;
+  margin-bottom: 2.2rem;
 }
 /*# sourceMappingURL=main.css.map */

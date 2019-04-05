@@ -1,0 +1,32 @@
+.second-blog {
+
+    &__wrapper {
+        padding-left: 5rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__content {
+        max-width: 50%;
+        padding-right: 10rem;
+    }
+
+    &__heading {
+        text-align: left;
+        margin-bottom: 10rem;
+        line-height: 6.73rem;
+    }
+
+    &__text-wrapper {
+        padding-left: 10rem;
+    }
+
+    &__text {
+        text-indent: 4rem; 
+
+        &--2 {
+            text-indent: 4rem; 
+            margin-bottom: 9rem;
+        }
+    }
+}

@@ -13,3 +13,16 @@
         transform: scale(1.07);
     }
 }
+
+.btn-blog {
+    border: none;
+    background: transparent;
+    color: #3cbef1;
+    cursor: pointer;
+    padding: 1rem .5rem;
+
+    &:hover {
+        background-color: #3cbef1;
+        color: white;
+    }
+}

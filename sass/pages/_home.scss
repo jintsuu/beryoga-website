@@ -12,21 +12,88 @@
 }
 
 .about-us {
+    position: relative;
     background: url(../img/about-us.png) no-repeat;
     background-position: 17% 0;
     background-size: 40%;
     padding-top: 6rem;
+    margin-bottom: 25rem;
 }
 
+.first-blog {
+    position: relative;
+    background: url(../img/the-healing.png) no-repeat;
+    background-position: 85% 0;
+    background-size: 40%;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    margin-bottom: 30rem;
+}
+
+.second-blog {
+    background: url(../img/blog.png) no-repeat;
+    background-position: 10% 0;
+    background-size: 35%;
+    margin-bottom: 16rem;
+}
+
+.footer {
+    background: url(../img/footer-back.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    padding-top: 5rem;
+}
+
+
+// Decorations
+
+.decoration {
+    position: absolute;
+    
+    &-img-1 {
+        left: 0;
+        top: 10rem;
+    }
+
+    &-img-2 {
+        right: 0;
+        top: -15rem;
+    }
+
+    &-img-3 {
+        left: 0;
+        bottom: -20rem;
+    }
+
+    &-img-4 {
+        right: 0;
+        bottom: -40rem; 
+    }
+
+    &-img-5 {
+        right: 0;
+        bottom: -50rem; 
+    }
+}
+
+
+// Common classes
 .heading--2 {
     font-size: 5rem;
     color: #3b3838;
     text-align: center;
     font-weight: 500;
+    line-height: 6.04rem;
 }
 
 .heading--3 {
     font-size: 2.4rem;
     font-weight: 500;
     color: #3b3838;
+}
+
+.primary-text {
+    line-height: 4rem;
+    color: rgba(0, 0, 0, 0.651);
+    font-weight: 200;
 }

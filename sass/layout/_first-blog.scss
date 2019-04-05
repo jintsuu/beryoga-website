@@ -1,0 +1,21 @@
+.first-blog {
+
+    &__wrapper {
+        max-width: 40%;
+        padding-left: 5rem;
+    }
+
+    &__heading {
+        text-align: left;
+        margin-bottom: 8rem;
+    }
+
+    &__text-wrapper {
+        padding-left: 5rem;
+        padding-right: 11rem;
+    }
+
+    &__text {
+        margin-bottom: 8rem;
+    }
+}
