@@ -585,4 +585,273 @@ html {
   font-size: 1.6rem;
   margin-bottom: 2.2rem;
 }
+
+@media (max-width: 1800px) {
+  .main-content {
+    max-width: 60%;
+  }
+  .nav__block {
+    flex-basis: 25%;
+  }
+  .footer__nav {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .deal__item--back {
+    min-width: 30rem;
+  }
+  .deal__item--main {
+    min-width: 34rem;
+  }
+  .deal__sign--left {
+    left: 4.5rem;
+  }
+  .deal__sign--main {
+    left: -1rem;
+  }
+  .deal__sign--right {
+    left: 7rem;
+  }
+  .deal__period--left {
+    right: 2rem;
+  }
+  .deal__period--main {
+    right: 0;
+  }
+  .deal__period--right {
+    right: 5rem;
+  }
+  .about-us {
+    margin-bottom: 15rem;
+  }
+  .about-us__content {
+    flex-basis: 50%;
+  }
+  .first-blog {
+    margin-bottom: 20rem;
+  }
+  .first-blog__wrapper {
+    max-width: 50%;
+  }
+  .second-blog__content {
+    max-width: 60%;
+    padding-right: 5rem;
+  }
+  .header {
+    padding-bottom: 32rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .decoration {
+    display: none;
+  }
+  .container {
+    width: auto;
+    padding: 0 3rem;
+  }
+  .header {
+    background-position: 80% 0;
+    background-size: cover;
+  }
+  .main-content {
+    max-width: 80%;
+  }
+  .footer__deals {
+    flex-direction: column;
+  }
+  .deal__item--back {
+    min-width: 70%;
+  }
+  .deal__item--back:last-child {
+    margin-top: 1rem;
+  }
+  .deal__item--main {
+    min-width: 70%;
+    margin-top: 1rem;
+  }
+  .first-blog__wrapper {
+    max-width: 60%;
+  }
+  .first-blog {
+    background-position: 90% 40%;
+  }
+  .about-us {
+    background-position: 7% 40%;
+  }
+  .about-us__content {
+    flex-basis: 60%;
+  }
+  .about-us__wrapper {
+    padding-right: 12rem;
+  }
+  .second-blog__content {
+    max-width: 70%;
+    padding-right: 5rem;
+  }
+  .second-blog {
+    background-position: 0 40%;
+  }
+  .nav {
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .nav__block {
+    flex-basis: 100%;
+  }
+  .nav__heading {
+    text-align: center;
+  }
+  .nav__contacts {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+  }
+  .nav__item {
+    font-size: 1.8rem;
+  }
+  .footer__nav {
+    padding: 5rem 15rem;
+  }
+  .primary-text {
+    color: black;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer__nav {
+    padding: 5rem;
+  }
+  .features__items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features__item:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+  .header__nav {
+    display: none;
+  }
+  .main-content {
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content__text {
+    width: 100%;
+  }
+  .first-blog__wrapper {
+    max-width: 90%;
+    padding: 0;
+  }
+  .first-blog {
+    background-position: 50% 50%;
+    background-size: 90%;
+  }
+  .first-blog {
+    text-align: center;
+  }
+  .first-blog__text-wrapper {
+    padding: 0;
+  }
+  .about-us {
+    background-position: 50% 50%;
+    background-size: 90%;
+  }
+  .about-us__content {
+    flex-basis: 90%;
+  }
+  .about-us__wrapper {
+    padding-right: 0;
+    justify-content: center;
+  }
+  .about-us__list {
+    padding-left: 5rem;
+  }
+  .second-blog__content {
+    max-width: 90%;
+    padding-right: 0;
+  }
+  .second-blog {
+    background-position: 50% 50%;
+    background-size: 90%;
+  }
+  .second-blog__wrapper {
+    justify-content: center;
+    padding-left: 0;
+  }
+  .second-blog__text-wrapper {
+    padding-left: 0;
+    text-align: center;
+  }
+  .primary-text {
+    font-weight: 400;
+  }
+  .btn-blog {
+    font-weight: 600;
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.377);
+    border-radius: 30px;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 620px) {
+  html {
+    font-size: 50%;
+  }
+  .main-content__buttons {
+    text-align: center;
+  }
+  .main-content__btn:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  .nav__item {
+    font-size: 1.6rem;
+  }
+  .deal__item--back .deal__term {
+    background-size: 8%;
+  }
+  .deal__item--main .deal__term {
+    background-size: 8%;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer__nav {
+    padding: 2rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .second-blog__content {
+    max-width: 100%;
+  }
+  .about-us__content {
+    flex-basis: 100%;
+  }
+  .first-blog__wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  html {
+    font-size: 40%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
