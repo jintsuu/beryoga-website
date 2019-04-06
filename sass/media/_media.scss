@@ -231,7 +231,7 @@
     }
 
     .first-blog {
-        text-align: center;
+        text-align: left;
     } 
 
     .first-blog__text-wrapper {
@@ -249,7 +249,7 @@
 
     .about-us__wrapper {
         padding-right: 0;
-        justify-content: center;
+        justify-content: left;
     }
 
 
@@ -268,13 +268,13 @@
     }
 
     .second-blog__wrapper {
-        justify-content: center;
+        justify-content: left;
         padding-left: 0;
     }
 
     .second-blog__text-wrapper {
         padding-left: 0;
-        text-align: center;
+        text-align: left;
     }
 
     .primary-text {
@@ -285,7 +285,7 @@
         font-weight: 600;
         font-size: 3rem;
         background: rgba(0, 0, 0, 0.377);
-        border-radius: 30px;
+        border-radius: 10px;
         padding: 1rem;
     }
 }
